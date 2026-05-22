@@ -1,0 +1,202 @@
+/* =====================
+   PALETTE BASE
+   ===================== */
+:root {
+    --glass-bg: rgba(255, 255, 255, 0.06);
+    --glass-border: rgba(255, 255, 255, 0.12);
+    --glass-border-top: rgba(255, 255, 255, 0.2);
+    --glass-shadow: 0 4px 24px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    --dark-bg-a: #0a0f1e;
+    --dark-bg-b: #0f172a;
+    --dark-bg-c: #1e1b4b;
+}
+
+/* =====================
+   GLOBAL BACKGROUND
+   ===================== */
+html, body {
+    background: var(--dark-bg-a) !important;
+}
+
+/* =====================
+   HEADER
+   ===================== */
+.site-header {
+    background: rgba(10, 15, 30, 0.75) !important;
+    border-bottom: 1px solid var(--glass-border) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+}
+
+.brand-name,
+.site-header .nav-link,
+.site-header .nav-link:hover {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.site-header .nav-link {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* =====================
+   HERO
+   ===================== */
+.hero {
+    background: linear-gradient(135deg, var(--dark-bg-a) 0%, var(--dark-bg-c) 50%, var(--dark-bg-b) 100%) !important;
+    padding: 7rem 0 5rem;
+}
+
+.hero-title {
+    color: #ffffff !important;
+}
+
+.hero-subtitle {
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.rating-text {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* =====================
+   SCREENSHOTS
+   ===================== */
+.screenshots-section {
+    background: var(--dark-bg-b) !important;
+}
+
+.screenshots-section .section-header h2 {
+    color: #ffffff !important;
+}
+
+.screenshots-section .section-description {
+    color: rgba(255, 255, 255, 0.55) !important;
+}
+
+/* =====================
+   FEATURES
+   ===================== */
+.features-section {
+    background: linear-gradient(135deg, var(--dark-bg-b) 0%, var(--dark-bg-c) 50%, var(--dark-bg-b) 100%) !important;
+}
+
+.features-section .section-header h2,
+.features-section .category-title {
+    color: #ffffff !important;
+}
+
+.features-section .section-description,
+.features-section .category-description {
+    color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.feature-card {
+    background: var(--glass-bg) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border: 1px solid var(--glass-border) !important;
+    box-shadow: var(--glass-shadow) !important;
+}
+
+.feature-title {
+    color: #ffffff !important;
+}
+
+.feature-description {
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.feature-icon {
+    background: rgba(255, 255, 255, 0.12) !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+}
+
+/* =====================
+   DOWNLOAD / CTA
+   ===================== */
+.download-section {
+    background: linear-gradient(135deg, #1e1b4b 0%, #2563eb 50%, #1e40af 100%) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* =====================
+   REVIEWS / TESTIMONIALS
+   ===================== */
+.testimonials-section {
+    background: linear-gradient(135deg, var(--dark-bg-b) 0%, var(--dark-bg-c) 50%, var(--dark-bg-b) 100%) !important;
+}
+
+.testimonials-section .section-header h2 {
+    color: #ffffff !important;
+}
+
+.testimonials-section .section-description {
+    color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.testimonial-card {
+    background: var(--glass-bg) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border: 1px solid var(--glass-border) !important;
+    box-shadow: var(--glass-shadow) !important;
+}
+
+.testimonial-author {
+    color: #ffffff !important;
+}
+
+.testimonial-quote {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.star { color: #fbbf24 !important; }
+
+/* =====================
+   FOOTER
+   ===================== */
+.site-footer {
+    background: rgba(5, 8, 18, 0.95) !important;
+    border-top: 1px solid var(--glass-border) !important;
+}
+
+.brand-name,
+.footer-tagline,
+.footer-copyright p,
+.footer-privacy-link {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.footer-privacy-link:hover {
+    color: #ffffff !important;
+}
+
+/* =====================
+   PRIVACY PAGE
+   ===================== */
+.privacy-page {
+    background: var(--dark-bg-a) !important;
+    min-height: 100vh;
+}
+
+.privacy-title {
+    color: #ffffff !important;
+}
+
+.privacy-content h2,
+.privacy-content h3 {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.privacy-content p,
+.privacy-content li {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.privacy-content ul {
+    border-left: 2px solid rgba(255, 255, 255, 0.1);
+    padding-left: 1.5rem;
+}
